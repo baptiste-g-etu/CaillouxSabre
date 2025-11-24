@@ -24,8 +24,18 @@ public class HistoireTP4 {
 		
 	}
 	
+	private static void histoire3() {
+		Yakuza yaku = new Yakuza("Yaku le noir", "whisky", 30, "Warsong");
+		Commercant marco = new Commercant("Marco", 15);
+		
+		yaku.direBonjour();
+		yaku.extorquer(marco);
+		
+	}
+	
 	public static void main(String[] args) {
 		// histoire1();
-		histoire2();
+		// histoire2();
+		histoire3();
 	}
 }
