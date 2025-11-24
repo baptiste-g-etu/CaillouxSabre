@@ -47,6 +47,7 @@ public class HistoireTP4 {
 		Ronin roro = new Ronin("Roro", "shochu", 60);
 		Commercant marco = new Commercant("Marco", 20);
 		
+		// Pour permettre au yakuza d'avoir de la réputation
 		yaku.extorquer(marco);
 		
 		roro.provoquer(yaku);
