@@ -41,10 +41,22 @@ public class HistoireTP4 {
 		
 	}
 	
+	
+	private static void histoire5() {
+		Yakuza yaku = new Yakuza("Yaku le noir", "whisky", 45, "Warsong");
+		Ronin roro = new Ronin("Roro", "shochu", 60);
+		Commercant marco = new Commercant("Marco", 20);
+		
+		yaku.extorquer(marco);
+		
+		roro.provoquer(yaku);
+	}
+	
 	public static void main(String[] args) {
 		// histoire1();
 		// histoire2();
 		//histoire3();
-		histoire4();
+		//histoire4();
+		histoire5();
 	}
 }
