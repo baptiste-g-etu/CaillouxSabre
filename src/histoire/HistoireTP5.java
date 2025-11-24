@@ -19,6 +19,7 @@ public class HistoireTP5 {
 		marco.listerConnaissances();
 		roro.listerConnaissances();
 		yaku.listerConnaissances();
+;
 		
 	}
 
