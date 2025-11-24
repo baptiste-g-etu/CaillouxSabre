@@ -33,9 +33,18 @@ public class HistoireTP4 {
 		
 	}
 	
+	private static void histoire4() {
+		Commercant marco = new Commercant("Marco", 40);
+		Ronin roro = new Ronin("Roro", "shochu", 60);
+		roro.direBonjour();
+		roro.donner(marco);
+		
+	}
+	
 	public static void main(String[] args) {
 		// histoire1();
 		// histoire2();
-		histoire3();
+		//histoire3();
+		histoire4();
 	}
 }
