@@ -1,10 +1,11 @@
 package histoire;
 
-import personnages.Humain;
+import personnages.*;
 
 public class HistoireTP4 {
 
-	public static void main(String[] args) {
+	private static void histoire1() {
+		// Scénario 1
 		Humain prof = new Humain("Professeur", "Ciao kombucha", 54);
 		prof.direBonjour();
 		prof.acheter("une boisson", 12);
@@ -12,5 +13,19 @@ public class HistoireTP4 {
 		prof.acheter("un jeu", 2);
 		prof.acheter("un kimono", 50);
 	}
-
+	
+	private static void histoire2() {
+		// Scénario 2
+		Commercant marco = new Commercant("Marco", 20);
+		marco.direBonjour();
+		marco.seFaireExtorquer();
+		marco.recevoir(15);
+		marco.boire();
+		
+	}
+	
+	public static void main(String[] args) {
+		// histoire1();
+		histoire2();
+	}
 }

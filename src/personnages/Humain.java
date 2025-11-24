@@ -24,11 +24,11 @@ public class Humain {
 	}
 	
 	// Méthodes
-	private void gagnerArgent(int montant) {
+	protected void gagnerArgent(int montant) {
 		this.argent += montant;
 	}
 	
-	private void perdreArgent(int montant) {
+	protected void perdreArgent(int montant) {
 		this.argent -= montant;
 	}
 	
